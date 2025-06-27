@@ -2,7 +2,7 @@ import React from 'react';
 
 const PortfolioMain = () => {
   return (
-    <main className="py-16 px-8 bg-gray-800">
+    <main className="py-24 px-8 bg-gray-800">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="flex-1 max-w-2xl">
           <h1 className="text-5xl font-bold text-gray-100 mb-4">Mateus Henrique e Leonardo</h1>

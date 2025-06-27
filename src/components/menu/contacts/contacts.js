@@ -4,8 +4,12 @@ import { FaArrowLeft, FaStar } from 'react-icons/fa';
 const SimpleContactForm = () => {
 
   return (
-    <section className='bg-gray-700 py-20'>
+    <section className='bg-gray-700 py-18'>
     <div className="max-w-md mx-auto p-6 rounded-lg">
+
+    
+      <h3 className="text-gray-200 text-center font-semibold text-4xl mb-10">Contact Us</h3>
+      
 
       <div className="space-y-6" id="contact">
         <div>

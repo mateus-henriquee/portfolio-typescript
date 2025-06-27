@@ -40,6 +40,8 @@ const ProjectsSection = () => {
             </div>
           </div>
 
+    
+
           <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out transform group">
             <div className="absolute inset-0 bg-gray-800 bg-opacity-40 backdrop-blur-md border border-gray-400 border-opacity-20 group-hover:border-opacity-40 transition-all duration-300" />
             <div className="relative z-10 h-full flex flex-col">
@@ -75,7 +77,7 @@ const ProjectsSection = () => {
             <div className="absolute inset-0 bg-gray-800 bg-opacity-40 backdrop-blur-md border border-gray-400 border-opacity-20 group-hover:border-opacity-40 transition-all duration-300" />
             <div className="relative z-10 h-full flex flex-col">
               <img
-                src="https://via.placeholder.com/400x250/374151/FFFFFF?text=Weather"
+                src="https://cdn.dribbble.com/userupload/9745588/file/original-75ee0ad604cd78d220b32090ce8499e4.png?resize=752x&vertical=center"
                 alt="Weather App"
                 className="w-full h-40 object-cover border-b border-gray-400 border-opacity-20"
               />
@@ -106,7 +108,7 @@ const ProjectsSection = () => {
             <div className="absolute inset-0 bg-gray-800 bg-opacity-40 backdrop-blur-md border border-gray-400 border-opacity-20 group-hover:border-opacity-40 transition-all duration-300" />
             <div className="relative z-10 h-full flex flex-col">
               <img
-                src="https://via.placeholder.com/400x250/374151/FFFFFF?text=Fitness"
+                src="https://hips.hearstapps.com/hmg-prod/images/young-man-running-outdoors-in-morning-royalty-free-image-1717693611.jpg"
                 alt="Fitness Tracker"
                 className="w-full h-40 object-cover border-b border-gray-400 border-opacity-20"
               />

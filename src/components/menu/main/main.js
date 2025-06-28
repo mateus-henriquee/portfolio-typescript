@@ -1,8 +1,12 @@
 import React from 'react';
+import FadeInSection from "@/components/animation/FadeInSection"; 
+
 
 const PortfolioMain = () => {
   return (
     <main className="py-24 px-8 bg-gray-800">
+            <FadeInSection>
+
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="flex-1 max-w-2xl">
           <h1 className="text-5xl font-bold text-gray-100 mb-4">Mateus Henrique e Leonardo</h1>
@@ -21,6 +25,8 @@ const PortfolioMain = () => {
             <img src="https://www.pngarts.com/files/4/Lightning-McQueen-Disney-Cars-Free-PNG-Image.png" className='w-full max-w-md h-auto rounded-lg shadow-md'></img>
         </div>
       </div>
+            </FadeInSection>
+
     </main>
   );
 };

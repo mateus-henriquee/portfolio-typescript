@@ -1,26 +1,58 @@
-export default function Footer() {
-    return(
-        <footer className="bg-gray-300 py-8 px-4 text-gray-900">
-            <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-               
-                <div className="flex space-x-6 mb-4 md:mb-0">
-                   
-                  
-                    <img className="w-10 h-10" src="https://img.icons8.com/m_outlined/512/whatsapp.png"></img>
-                   
-                  
-                    <img className="w-10 h-10" src="https://img.icons8.com/?size=512&id=44907&format=png"></img>
-                    
-                    <img className="w-10 h-10" src="https://cdn-icons-png.flaticon.com/512/542/542689.png"></img>
-                    
-                   
-                </div>
+import { FaWhatsapp, FaInstagram, FaEnvelope } from "react-icons/fa";
+import FadeInSection from "@/components/animation/FadeInSection"; 
 
-              
-                <div className="text-center md:text-right text-sm">
-                    <p>&copy; 2024 Made by Leonardo Yudi and Mateus Henrique</p>
-                </div>
+export default function Footer() {
+  return (
+    <footer className="bg-gray-900 text-gray-300 py-12 px-6">
+      <FadeInSection>
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h4 className="text-white font-semibold mb-4">Serviços</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="#" className="hover:underline">Finanças e Gestão Pública</a></li>
+              <li><a href="#" className="hover:underline">Assistência Social</a></li>
+              <li><a href="#" className="hover:underline">Justiça e Segurança</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-white font-semibold mb-4">Notícias</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="#" className="hover:underline">Meio Ambiente</a></li>
+              <li><a href="#" className="hover:underline">Viagens e Turismo</a></li>
+              <li><a href="#" className="hover:underline">Educação e Pesquisa</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-white font-semibold mb-4">Canais</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="#" className="hover:underline">Cultura e Esportes</a></li>
+              <li><a href="#" className="hover:underline">Transporte</a></li>
+              <li><a href="#" className="hover:underline">Agricultura</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-white font-semibold mb-4">Redes Sociais</h4>
+            <div className="flex space-x-4">
+              <a href="#" className="text-blue-400 hover:text-blue-300 text-2xl">
+                <FaWhatsapp />
+              </a>
+              <a href="#" className="text-blue-400 hover:text-blue-300 text-2xl">
+                <FaInstagram />
+              </a>
+              <a href="#" className="text-blue-400 hover:text-blue-300 text-2xl">
+                <FaEnvelope />
+              </a>
             </div>
-        </footer>
-    )
+          </div>
+        </div>
+
+        <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
+          &copy; 2025 Leonardo Yudi e Mateus Henrique. Todos os direitos reservados.
+        </div>
+      </FadeInSection>
+    </footer>
+  );
 }

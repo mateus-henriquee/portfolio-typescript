@@ -1,9 +1,11 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
+import FadeInSection from '../animation/FadeInSection';
 
 const ProjectsSection = () => {
   return (
     <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
+      <FadeInSection>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-white mb-12 text-center">Recent Projects</h2>
 
@@ -137,6 +139,7 @@ const ProjectsSection = () => {
 
         </div>
       </div>
+      </FadeInSection>
     </section>
   );
 };

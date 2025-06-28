@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython } from 'react-icons/fa';
+import { SiTailwindcss, SiMongodb } from 'react-icons/si';
 
 function AboutSection() {
   return (
@@ -13,15 +15,31 @@ function AboutSection() {
 
         <h3 className="text-2xl font-semibold mb-6">Skills</h3>
 
-        <div className="flex flex-wrap justify-center gap-4">
-          <span className="bg-gray-700 text-sm px-4 py-2 rounded-full">HTML</span>
-          <span className="bg-gray-700 text-sm px-4 py-2 rounded-full">CSS</span>
-          <span className="bg-gray-700 text-sm px-4 py-2 rounded-full">JavaScript</span>
-          <span className="bg-gray-700 text-sm px-4 py-2 rounded-full">React</span>
-          <span className="bg-gray-700 text-sm px-4 py-2 rounded-full">Tailwind CSS</span>
-          <span className="bg-gray-700 text-sm px-4 py-2 rounded-full">Node.js</span>
-          <span className="bg-gray-700 text-sm px-4 py-2 rounded-full">Python</span>
-          <span className="bg-gray-700 text-sm px-4 py-2 rounded-full">MongoDB</span>
+        <div className="flex flex-wrap justify-center gap-4 text-blue-300 text-lg">
+          <span className="flex items-center gap-2 bg-gray-700 px-4 py-2 rounded-full">
+            <FaHtml5 /> HTML
+          </span>
+          <span className="flex items-center gap-2 bg-gray-700 px-4 py-2 rounded-full">
+            <FaCss3Alt /> CSS
+          </span>
+          <span className="flex items-center gap-2 bg-gray-700 px-4 py-2 rounded-full">
+            <FaJs /> JavaScript
+          </span>
+          <span className="flex items-center gap-2 bg-gray-700 px-4 py-2 rounded-full">
+            <FaReact /> React
+          </span>
+          <span className="flex items-center gap-2 bg-gray-700 px-4 py-2 rounded-full">
+            <SiTailwindcss /> Tailwind CSS
+          </span>
+          <span className="flex items-center gap-2 bg-gray-700 px-4 py-2 rounded-full">
+            <FaNodeJs /> Node.js
+          </span>
+          <span className="flex items-center gap-2 bg-gray-700 px-4 py-2 rounded-full">
+            <FaPython /> Python
+          </span>
+          <span className="flex items-center gap-2 bg-gray-700 px-4 py-2 rounded-full">
+            <SiMongodb /> MongoDB
+          </span>
         </div>
       </div>
     </section>
